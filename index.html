@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!-- Auto generated meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Author meta tage -->
+  <meta name="author" content="Bianca Castillo">
+  
+  <!-- Descripton meta tage -->
+  <meta name="description" content="Talented website designer. Checkout what I have created and 
+  hire me to help you design your own. Tailored to your business's needs.">
+  
+  <!-- Downloaded icon from: https://www.flaticon.com/free-icons/design
+  Title: design icons | Created by Freepik - Flaticon -->
+  <link rel="icon" type="image/x-icon" href="pcicon.png">
+  
+  <!-- Adding Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <!-- Linking styles.css sheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- Adding Crimson Text SemiBold 600 Italic and Dancing Script font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  
+  <!-- Setting the Title of the website -->
+  <title>Bianca's Web Designer Services</title>
+</head>
+<body>
+
+    <!-- Adding top to bottom gradient -->
+    <div class="gradTop">
+		<!-- Adding Bootstrap Navbar 
+		https://getbootstrap.com/docs/5.2/components/navbar/ -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<!-- Adding the LinkedIn logo, linking my own LinkedIn 
+				page to the logo and using my name as the 'brand' for 
+				the website -->
+				<a class="navbar-brand" href="https://www.linkedin.com/in/bianca-castillo-582064159">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+					<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 
+					0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 
+					0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 
+					0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 
+					.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+					</svg>
+					<strong> Bianca Castillo</strong>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<!-- Creating link to Home page -->
+						<li class="nav-item">
+							<a class="nav-link active" href="./index.html">Home</a>
+						</li>
+
+						<!-- About Me is current page and will be green -->
+						<li class="nav-item">
+							<a class="nav-link" href="./aboutme.html">About Me</a>
+						</li>
+
+						<!-- Creating link to Blog page -->
+						<li class="nav-item">
+							<a class="nav-link" href="./blog.html">Blog</a>
+						</li>
+					</ul>
+
+					<!-- Creating placehold for a search bar -->
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="&#x1F50E; Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Italicizing text -->
+		<h1><i>Professional Web Designer</i></h1>
+
+		<h3>Passionate student looking to build a career in web development and design.</h3>
+		<br>
+    </div> <!-- Closes top to bottom gradient div block -->
+   
+    <!-- Created Table 1 and applying center formatting -->
+    <table class="table1 center">
+		<!-- First row in Table 1 -->
+		<tr>
+			<th>Contact me for help with designing your own website   <!-- Column 1 -->
+				<span style="font-size: 25px;">&#8594;</span>
+			</th>                                                     <!-- Closing Column 1 -->
+			<!-- Creating input form to gather visitor info and textarea
+			for them to add a brief description of their request -->
+			<td rowspan="3" class="pad">                              <!-- Column 2 -->
+				<form method="get">
+					<label for="email">Email:</label><br>
+					<input type="text" id="email" name="email"><br>
+					<label for="firstName">First Name:</label><br>
+					<input type="text" id="firstName" name="firstName"><br>
+					<label for="lastName">Last Name:</label><br>
+					<input type="text" id="lastName" name="lastName"><br>
+					<label for="phoneNumber">Phone Number:</label><br>
+					<input type="text" id="phoneNumber" name="phoneNumber"><br>
+					<label for="description">Enter a brief description of your request:</label><br>
+					<textarea id="description" name="description" rows="4" cols="50"></textarea>
+					<br><br>
+					<input type="submit" value="Submit Your Request" style="width: auto;">
+				</form>
+			</td>                                                     <!-- Closing Column 2 -->
+		</tr> <!-- Closing first row in Table 1 -->
+
+      <!-- Second row in Table 1 -->
+		<tr>
+			<td> 
+			  
+				<i><bold>Introduction</bold></i>
+
+				<p>I am a passionate software development student enrolled with 
+				<a href="https://www.correlation-one.com/">Correlation One</a> currently honing
+				my advanced HTML skills. I've built this website to showcase what 
+				I've learned so far. I strive for excellence and hope to aid others in
+				building an attractive website for their personal or business needs. I've 
+				set up this form asking my visitors to contact me so I can help them design their 
+				very own website and will aim to make this a reality in the near future.</p>
+
+				<p>I am excited to enter the tech industry and am grateful for the opportunity that 
+				Amazon has provided me via <a href="https://www.amazoncareerchoice.com/home">Career 
+				Choices</a>. I've been a fulfillment warehouse associate for over 8 years now. I first 
+				started with <a href="https://www.dhl.com/us-en/home/about-us.html">DHL Logistics</a>, then
+				I worked for <a href="https://jobs.tjx.com/global/en/distribution">TJ Maxx Distribution 
+				Center</a>. Given my experience in logistics, I applied to Amazon and have stuck around for 
+				5 years so far. During this time I got to know myself better and decided to learn software 
+				development to eventually make this my career and further myself financially. You can learn more 
+				about me <a href="./aboutme.html">here</a>. I will illustrate 
+				some of the websites I've built so far.</p>
+
+			</tr> <!-- Closing second row in Table 1 -->
+
+			<!-- Creating third row in Table 1 -->
+			<tr>
+				<td>
+					<!-- Creating grid container for screenshots -->
+					<div class="imggrid-container">
+						<div class="imggrid-item">
+							<img src="./media/Example1.png" alt="Screenshot of an About Me website I created">
+						</div>
+
+						<div class="imggrid-item">
+							<img src="./media/Example2.png" alt="Screenshot of a page with a picture, audio, and video I created">
+						</div>
+
+						<div class="imggrid-item">
+							<img src="./media/Example3.png" alt="Screenshot of page we had to recreate in the class, has nav bar">
+						</div>
+
+						<div class="imggrid-item">
+							<img src="./media/Example4.png" alt="Screenshot of page with table and input form examples">
+						</div>
+					</div> <!-- Closing div for grid container -->
+				</td>
+			</tr> <!-- Closing third row in Table 1 -->
+    </table> <!-- Closing Table 1 -->
+ 
+    <!-- Creating page footer and adding bottom to top gradient -->
+    <footer class= "gradBottom
+    ">
+		<!-- Creating grid container  for footer -->
+		<div class="fgrid-container">
+
+			<!-- Creating grid item for my info -->
+			<div class="fgrid-item">
+				<p>Bianca Castillo</p>
+				<ul>
+					<li>1001 Fake Street,</li>
+					<li>North Las Vegas, NV 89111</li>
+					<li>United States</li>
+				</ul>
+			</div>
+
+			<!-- Creating grid item for resources -->
+			<div class="fgrid-item">
+				<p>Resources</p>
+				<ul>
+					<li><a href="https://www.w3schools.com/html/html_intro.asp">W3Schools</a></li>
+					<li><a href="https://unsplash.com/">Unpalsh</a></li>
+					<li><a href="https://stackoverflow.com/questions/tagged/html">Stacked Overflow</a></li>
+				</ul>
+			</div>
+
+			<!-- Creating grid item for Legal paceholder -->
+			<div class="fgrid-item">
+				<p>Legal</p>
+				<ul>
+					<li>Terms of Service</li>
+					<li>Privacy Policy</li>
+					<li>Place Holder</li>
+				</ul>
+			</div>
+
+			<!-- Creating grid item for chat options -->
+			<div class="fgrid-item">
+				<p>Lets chat!</p>
+				<ul>
+					<li><a href="mailto:castillob94@gmail.com">Send Me An Email</a></li>
+					<li><a href="./aboutme.html">About Me</a></li>
+					<li><a href="https://www.linkedin.com/in/bianca-castillo-582064159https
+							://www.linkedin.com/in/bianca-castillo-582064159">Linkedin</a></li>
+				</ul>
+			</div>
+		</div> <!-- Closes grid container div block in footer -->
+
+		<!-- Adding Copyright line -->
+		<p><small>Created by Bianca Castillo | Copyright &copy; 2023</small></p>
+
+    </footer> <!-- Closing footer -->
+	
+	<!-- Bootstrap Javascript link -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+	crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,355 @@
+/* Making body background color black. 
+Ensuring background covers screen, does not 
+repeat, and is fixed. Also making the text white.
+Photo by Vino Li on Unsplash
+https://unsplash.com/photos/gGX1fJkmw3k 
+the image is applied as a background to the whole page */
+body {
+  background-color: black;
+  background-image: url('../media/background.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+/* Centering headers 1 and 3. Also adding font */
+h1, h3 {
+  text-align: center;        
+  font-family: 'Crimson Text', serif;
+}
+/* Aligning header 4 to the left. Also adding font */
+h4 {
+  text-align: left;
+  margin-bottom: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Making the hyperlink text greenish */
+a {
+  color: #207F6B
+}
+/* Indenting paragraphs */
+p {
+  text-indent: 30px;
+}
+/* Making th, td and table text align left, collapsing the
+inner boarders and making the text white for Table 1 only */
+.table1, .table1 th, .table1 td {
+  text-align: left;
+  width: 60%;
+  border-collapse: collapse;
+  color: white
+}
+/* Making Table 1 background black */
+.table1 {
+  background-color: black;
+}
+/* Making the th got Table 1 background color greenish, giving
+it a solid greenish border and padding the top and bottom */
+.table1 th {
+  background-color: #207F6B;
+  border-top: 5px solid #207F6B;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/* styling to center a section */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Creating a greenish boarder and adding padding for the fields 
+in the form section */
+.pad {
+  border: 5px solid #207F6B;
+  padding: 20px;
+}
+/* Extending the input and textarea boxes from the field to be 
+near the edge of their column*/
+input, textarea {
+  width: 98%;
+}
+/* Making screenshots small */
+img {
+  height: 155px;
+}
+/* Adding padding to the footer, making the text white, and
+positioning it at the bottom of the website. Added box shadow that extends 
+below the footer to make sure the gradient does not look weird */
+footer {
+  padding-top: 50px;
+  color: white;
+  bottom: 0;
+  box-shadow: 0 50vh 0 50vh black;
+}
+/* Table 2 is used in the footer. Splitting width to a 4th and
+aligning text to the left */
+.table2 td, .table2 th {
+  width: 25%;
+  text-align: left;
+}
+/* Creating top to bottom black to transparent gradient that will
+be used in the header */
+.gradTop {
+  background-image: linear-gradient(to bottom, black, transparent)
+}
+/* Creating bottom to top black to transparent gradient that will
+be used in the footer */
+.gradBottom {
+  background-image: linear-gradient(to top, black, transparent)
+}
+/* Centering navigation bar */
+navbar {
+  text-align: center;
+}
+/* Hidding overflow content */
+.topnav {
+  overflow: hidden;
+}
+/* Ensuring a tag respects padding, text is centered and
+white and assigning font size */
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* If hovering over element in navbar, background color
+be gray and text will be black*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Active navbar tap will be greenish with white text */
+.topnav a.active {
+  background-color: #207F6B;
+  color: white;
+}
+/* Centering images, setting img height and adding padding 
+for the About Me page */
+.amcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  height: 299px;
+}
+/* Ensures that the navbar brand is white */
+a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active {
+  color: white;
+}
+/* Ensuring a tag respects padding, text is centered and
+white, assigning font size, and setting border radius */
+nav .navbar-nav li a {
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 17px;
+  border-radius: 0.375rem;
+  text-decoration: none;
+}
+/* If hovering over element in navbar, background color
+will be gray and text will be black*/
+nav .navbar-nav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Active navbar tap will be greenish with white text */
+nav .navbar-nav li a.nav-link.active {
+  background-color: #207F6B;
+  color: white;
+}
+/* Making navbar toggler white */
+button.navbar-toggler {
+  background-color: white;
+}
+/* Making search button text in navbar white */
+button.btn.btn-outline-success {
+  color: white;
+  border-color: #207F6B;
+}
+/* Making search button background greenish when 
+hoving over it */
+button.btn.btn-outline-success:hover {
+  background-color: #207F6B;
+}
+/* Adding formatting to make the date in the Blog table small */
+.blogtable small {
+  font-size: x-small;
+}
+/* Adding grid container for the footer and centering
+items within the container */
+.fgrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+
+}
+/* Padding for footer grid item and 
+removing word wrap */
+.fgrid-item {
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* Removing unordered list bullet points and padding
+within footer grid item */
+.fgrid-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+/* Formatting paragraph within footer grid item */
+.fgrid-item p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 0px;
+  text-indent: 0px;
+}
+/* Creating grid for my website example images */
+.imggrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+/* Formatting for image grit item */
+.imggrid-item {
+  padding: 0px;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid container that has 2 columns 
+Sets styling for it and a faiding animation */
+.grid_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: min(100% - 2rem, 1300px);
+  min-height: 70vh;
+  margin-inline: auto;
+  /* animation name, animation time, animation fill mode */
+  animation: fade-in-right 1000ms forwards;
+  background-color: black;
+  border: 5px solid #207F6B;
+}
+
+/* Grid item styling */
+.grid_item {
+  height: 100%;
+  color: white; /* REDUNDENT for codepen */
+}
+
+/* REDUNDENT to ensure it hyperlink text is green in codepen */
+.grid_item a {
+  color: #207F6B;
+}
+
+/* Grid image styling to ensure it properly adjusts
+size as page dimensions change */
+.grid_image > img {
+  width: 100%;
+  height: auto;
+}
+
+/* Grid heading styling */
+.grid_heading {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  background-color: #207F6B;
+  padding: 0.3rem;
+}
+ 
+/* Grid subheading styling */
+.grid_subheading {
+  font-size: 1.25rem;
+  max-width: 100ch;
+  font-style: italic;
+  padding: 0.3rem;
+}
+
+/* Grid subtext styling */
+.grid_subtext {
+  font-size: 1rem;
+  max-width: 100ch;
+  padding: 0.3rem;
+}
+
+/* Creating animation called fade-in-right 
+Has grid container ofset 10% to left and fades from 
+transparent to normal back to its orginal position */
+@keyframes fade-in-right {
+  /* Start of animation hense 0% */
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+ 
+  /* End of animation hense 100% */
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Media query detects whether the user has requested the
+operating system to minimaize the amount of animation or motion.
+If preference is set, the animation for this page is diabled */
+@media (prefers-reduced-motion) {
+  .grid_container {
+    animation: none;
+  }
+}
+
+/* Media query set to ensure all blocks with text
+are adjusting as screen size changes */
+@media (max-width: 1100px) {
+  .grid_heading {
+    font-size: 1.25rem;
+  }
+
+  .grid_subheading {
+    font-size: 1rem;
+  }
+
+  .grid_subtext {
+    font-size: 0.75rem;
+  }
+}
+ 
+/* Media query changes the original 2 column grid 
+to a single column grid in smaller screens and
+ensures images properly resize */
+@media (max-width: 770px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+    gap: 1.5rem;
+    width: min(100% - 2rem, 1300px);
+  }
+
+  .grid_item {
+    width: 100%;
+  }
+
+  .grid_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+
+  .grid_subheading, .grid_subtext {
+    padding: 1rem;
+  }
+}

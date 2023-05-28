@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Downloaded icon from: https://www.flaticon.com/free-icons/design
+  Title: design icons | Created by Freepik - Flaticon -->
+  <link rel="icon" type="image/x-icon" href="pcicon.png">
+
+  <!-- Adding Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- Linking style.css sheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Setting the Title of the website -->
+  <title>About Me</title>
+</head>
+<body>
+
+  <!-- Adding top to bottom gradient -->
+  <div class="gradTop">
+
+
+    <!-- Adding Bootstrap Navbar 
+    https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Adding the LinkedIn logo, linking my own LinkedIn 
+        page to the logo and using my name as the 'brand' for 
+        the website -->
+        <a class="navbar-brand" href="https://www.linkedin.com/in/bianca-castillo-582064159">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 
+          0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 
+          0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 
+          0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 
+          .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+          <strong> Bianca Castillo</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Creating link to Home page -->
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+
+            <!-- About Me is current page and will be green -->
+            <li class="nav-item">
+              <a class="nav-link active" href="./aboutme.html">About Me</a>
+            </li>
+
+            <!-- Creating link to Blog page -->
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+          </ul>
+
+          <!-- Creating placehold for a search bar -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="&#x1F50E; Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Italicizing text -->
+    <h1><i>About Me</i></h1>
+    <h3>A brief hsitory of my life.</h3>
+    <br>
+  </div> <!-- Closes top to bottom gradient div block -->
+  
+  <!-- Setting up grid container block -->
+  <div class="grid_container">
+
+    <!-- First grid item -->
+    <div class="grid_item"> 
+      <div class="grid_heading">Childhood</div>
+      <div class="grid_subtext">
+        <p>I was born in the year 1994, it was 
+          a <a href="https://www.wunderground.com/history/monthly/hn/danl%C3%AD/date/2020-11">fresh</a> Sunday 
+          evening. Winter had just begun that mid-November in Danli, El Paraiso, Honduras.
+        </p>
+        <p>I was raised in Honduras from ages 1-14. Considering how long ago this was, there isn't much that I remember.
+          My two younger sisters were born during this time and that changed up my life quite a bit but everything went as you'd expect 
+          (attended kindergarten, elementary and middle school). Times did get a little rough when I was 14 and that led my parents to make the
+          decision to travel to the US in hopes to live the "American Dream."
+        </p>
+      </div>
+    </div> <!-- Closing first grid item -->
+    
+    <!-- Second grid item -->
+    <div class="grid_image">
+      <!-- Photo by Esteban Benites on Unsplash
+      https://unsplash.com/photos/IbNsWIgGyIY -->
+      <img src="./media/santacruz.jpg" alt="High view picture of a mountain range in Santa Cruz Yojoa Honduras">
+    </div> <!-- Closing second grid item -->
+
+    <!-- Third grid item -->
+    <div class="grid_item">
+      <div class="grid_heading">Teen Years</div>
+      <div class="grid_subheading">Interesting Experiences</div>
+      <div class="grid_subtext">
+        <p> My teen years were very rough considering the drastic transition. Picture this:
+          <ul>
+            <li>You left behind all your friends and extended family</li>
+            <li>You don't even know how to begin to grasp English</li>
+            <li>You struggle to keep up with school because of the language barrier</li>
+            <li>Making friends isn't as easy as it used to be because 'English'</li>
+            <li>You face the hard realization that graduation is around the corner when your adult life is about to begin and have no head starts</li>
+          </ul>
+            This was essentially my teenage life but, in the end, I persevered and scraped by just fine.
+        </p>
+      </div>
+    </div> <!-- Closing third grid item -->
+    
+    <!-- Fourth grid item -->
+    <div class="grid_image">
+      <!-- Photo by Julian Paefgen on Unsplash
+      https://unsplash.com/photos/uxU_jyu9e7U -->
+      <img src="./media/milkyway.jpg" alt="A night shot of the Las Vegas strip">
+    </div> <!-- Closing fourth grid item -->
+
+    <!-- Fifth grid item -->
+    <div class="grid_item">
+      <div class="grid_heading">Adulthood</div>
+      <div class="grid_subheading">Work Goals</div>
+      <div class="grid_subtext">
+        <p>I really broke out of my shell when I graduated highschool. I set high goals for myself but had to start from square one. In the following 2 
+          years I went through about 8 jobs trying to figure out what I liked and disliked. I realized that I wanted to further my career but had to stick to
+          a single job to save money and do just that. I stuck around for 2 years in DHL (a logistics center) to earn enough and pay through a Medical Insurance 
+          Billing and Coding certification but I sadly was not able to land a good job with this and back to the drawing board I went. Given my experience in logistics, 
+          I applied to Amazon and have stuck around for 5 years so far. During this time I got to know myself better and decided to learn software programming to eventually
+          make this my career and further myself financially.
+        </p>
+      </div>
+      <div class="grid_subheading">Hobbies and Things that I Enjoy</div>
+      <div class="grid_subtext">
+        <p>I really enjoy spending time with my family and going outside the city to catch fresh air and a glimpse of the darker skies - this has become my hobby. Every July, I make an effort to 
+          visit Pioche, NV to enjoy the latter. Pioche may have a tiny <a href="https://datacommons.org/ranking/Count_Person/City/geoId/32017?h=geoId%2F3257400">population</a> 
+          but it has some amazing night skies.
+        </p>
+      </div>
+    </div> <!-- Closing fifth grid item -->
+    
+    <!-- Sixth grid item -->
+    <div class="grid_image">
+      <!-- Photo by Denis Degioanni on Unsplash
+      https://unsplash.com/photos/9wH624ALFQA -->
+      <img src="./media/vegas.jpg" alt="A night photograph of the milkway over a mountain range">
+    </div> <!-- Closing sixth grid item -->
+
+  </div> <!-- Closing grid container -->
+
+  <!-- Creating page footer and applying bottom to top gradient -->
+  <footer class="gradBottom">
+    
+    <!-- Adding Copyright line -->
+    <p><small>Created by Bianca Castillo | Copyright &copy; 2023</small></p>
+    
+  </footer> <!-- Closing footer -->
+
+<!-- Bootstrap Javascript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+  crossorigin="anonymous"></script>
+</body>
+</html>
