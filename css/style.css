@@ -18,8 +18,8 @@ body {
   background-attachment: fixed;
   color: white;
 }
-/* Centering headers 1 and 3. Also adding font */
-h1, h3 {
+/* Centering headers 1, 2 and 3. Also adding font */
+h1, h2, h3 {
   text-align: center;        
   font-family: 'Crimson Text', serif;
 }
@@ -358,4 +358,47 @@ ensures images properly resize */
   .grid_subheading, .grid_subtext {
     padding: 1rem;
   }
+}
+
+/* Grid container for Samples page with 3 columns and 2 rows */
+.sample-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 20px;
+	text-align: center;
+	padding: 15px;
+}
+
+/* Block for grid items within the Samples page */
+.sample-grid-items {
+	text-align: center;
+	background-color: black;
+	border: 5px solid #207F6B;
+}
+
+/* Image formatting within Samples page */
+.sample img {
+	padding-top: 4px;
+	height: 250px;
+	width: 450px;
+	object-fit: cover;
+}
+
+/* Styling for when hoving over an image in Samples page */
+.sample img:hover {
+	border: 2px solid #207F6B;
+	opacity: 0.8;
+	box-shadow: 5px 5px 8px lightgrey;
+}
+
+/* Samples page header 2 formating */
+.sample h2 {
+	background-color: #207F6B;
+	border: 5px solid #207F6B;
+}
+
+/* Samples page heparagraph formating */
+.sample p {
+	padding-top: 10px;
 }
