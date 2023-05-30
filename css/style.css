@@ -1,3 +1,9 @@
+/*title color change for p5 */
+title {
+  color: green;
+  font-family: verdana;
+}  
+
 /* Making body background color black. 
 Ensuring background covers screen, does not 
 repeat, and is fixed. Also making the text white.
